@@ -16,6 +16,6 @@ class DocType:
 		webnotes.conn.set_default("auto_accounting_for_stock", self.doc.auto_accounting_for_stock)
 		
 		if self.doc.auto_accounting_for_stock:
-			for wh in webnotes.conn.sql("select name from `tabWarehouse`"):
+			for wh in webnotes.conn.sql("select name from `tabWarehouse` where docstatus < 2"):
 				wh_bean = webnotes.bean("Warehouse", wh[0])
 				wh_bean.save()
