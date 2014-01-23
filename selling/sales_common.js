@@ -391,7 +391,14 @@ erpnext.selling.SellingController = erpnext.TransactionController.extend({
 			me.frm.doc.net_total += item.amount;
 			me.frm.doc.net_total_export += item.export_amount;
 		});
-		
+		// var amt = 0.0;
+		// if(this.frm.discount_in_percent){
+		// 	amt = flt(this.frm.doc.net_total)*(flt(this.frm.discount_in_percent)/100)
+		// }
+		// else{
+		// 	amt = flt(this.frm.discount_as_amount
+		// }
+		// this.frm.doc.net_total = this.frm.doc.net_total - amt;
 		wn.model.round_floats_in(this.frm.doc, ["net_total", "net_total_export"]);
 	},
 	
