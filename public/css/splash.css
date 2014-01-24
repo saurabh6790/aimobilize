@@ -25,10 +25,10 @@
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	bottom: 30px;
+	bottom: 10px;
 	width: 160px;
 	height: 160px;
-	text-align: center;
+	text-align: bottom;
 	color: #888;
 	
 	animation-duration: 1s;
@@ -43,7 +43,7 @@
 }
 
 .splash:after {
-	content: "erpnext";
+	content: "";
 	font-size: 30px;
 	font-weight: 300;
 	font-family: Helvetica, Arial, sans-serif;
