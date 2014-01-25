@@ -9,7 +9,7 @@ $(document).bind('toolbar_setup', function() {
 	
 	var brand = ($("<div></div>").append(wn.boot.website_settings.brand_html).text() || 'Wamssler');
 	$('.navbar-brand').html('<div style="display: inline-block;">\
-			<object type="image/svg+xml" data="app/images/splash.svg" class="toolbar-splash"></object>\
+			<img src="files/loading_page_logo.png" alt="Smiley face" height="17" width="22">\
 		</div>' + brand)
 	.attr("title", brand)
 	.addClass("navbar-icon-home")
