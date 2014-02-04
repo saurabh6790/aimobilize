@@ -19,6 +19,7 @@
   "Buying": {
    "color": "#c0392b", 
    "icon": "icon-shopping-cart", 
+   "label": "Purchase",
    "link": "buying-home", 
    "type": "module"
   }, 
@@ -52,6 +53,7 @@
   "Selling": {
    "color": "#1abc9c", 
    "icon": "icon-tag", 
+   "label": "Sales",
    "link": "selling-home", 
    "type": "module"
   }, 
@@ -64,6 +66,7 @@
   "Stock": {
    "color": "#f39c12", 
    "icon": "icon-truck", 
+   "label": "Inventory",
    "link": "stock-home", 
    "type": "module"
   }, 
